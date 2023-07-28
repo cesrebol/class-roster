@@ -13,7 +13,10 @@ int main()
      "A5,Cesar,Rebolledo,crebol1@wgu.edu,37,[numofdaystocomplete3courses],SOFTWARE"
     };
 
-    cout << studentData[0];
+    cout << "C867 - Scripting and Programming: Application" << endl;
+    cout << "Language: C++" << endl;
+    cout << "Student ID: 010970631" << endl;
+    cout << "Name: Cesar Rebolledo" << endl;
 
-
+    
 };
