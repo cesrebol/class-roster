@@ -1,7 +1,7 @@
 #include <iostream> 
 #include "degree.h" // including degree.h file for this class
 
-using namespace std;
+using namespace std; // using std
 
 class Student {
     public:
