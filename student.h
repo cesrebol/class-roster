@@ -11,5 +11,6 @@ class Student {
         string emailAddress;
         int age;
         int daysInCourse;
-        string degreeProgram;
+        DegreeProgram degreeProgram;
+        
 };

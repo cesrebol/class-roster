@@ -18,5 +18,4 @@ int main()
     cout << "Student ID: 010970631" << endl;
     cout << "Name: Cesar Rebolledo-Valencia" << endl;
 
-    
 };
