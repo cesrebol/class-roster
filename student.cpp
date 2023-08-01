@@ -1,10 +1,10 @@
-#include <iostream>
-#include "sudent.h"
+// #include <iostream>
+// #include "sudent.h"
 
-using namespace std;
+// using namespace std;
 
-Student::Student() {
-    this->studentId = "A1";
-};
+// Student::Student() {
+//     this->studentId = "A1";
+// };
 
 
