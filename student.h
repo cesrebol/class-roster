@@ -4,7 +4,7 @@
 using namespace std; // using std
 
 class Student {
-    public:
+    private:
         string studentId;
         string firstName;
         string lastName;
@@ -12,5 +12,7 @@ class Student {
         int age;
         int daysInCourse;
         DegreeProgram degreeProgram;
+    public:
+        Student(string studentId, string firstName, string lastName, string emailAddress, int age, int daysInCourse, DegreeProgram degreeProgram);
         
 };
