@@ -1,5 +1,7 @@
 #include <iostream>
 #include "roster.h"
+#include "student.h"
+
 using namespace std;
 
 int main()

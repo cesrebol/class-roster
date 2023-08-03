@@ -1,10 +1,38 @@
-// #include <iostream>
-// #include "sudent.h"
+#include "student.h"
+#include <string>
 
-// using namespace std;
+using namespace std;
 
-// Student::Student() {
-//     this->studentId = "A1";
-// };
+Student::Student(){
+    
+};
+
+string Student::getStudentId() {
+    return studentId;
+}
+
+string Student::getFirstName() {
+    return firstName;
+}
+
+string Student::getLastName() {
+    return lastName;
+}
+
+string Student::getEmailAddress() {
+    return emailAddress;
+}
+
+int Student::getAge() {
+    return age;
+}
+
+int* Student::getDaysInCourse() {
+    return daysInCourse;
+}
+DegreeProgram Student::getDegreeProgram() {
+    return degreeProgram;
+}
+
 
 

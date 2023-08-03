@@ -13,6 +13,8 @@ class Student {
         int daysInCourse[3];
         DegreeProgram degreeProgram;
     public:
+        Student ();
+        
         Student(string studentId, string firstName, string lastName, string emailAddress, int age, int daysInCourse, DegreeProgram degreeProgram);
         string getStudentId(); 
         string getFirstName();
@@ -31,8 +33,4 @@ class Student {
         void setDegreeProgram(DegreeProgram degreeProgram);
         
         void print();
-
-
-
-
 };
