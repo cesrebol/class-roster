@@ -1,5 +1,7 @@
 #include <iostream>
 #include "roster.h"
+#include "student.h"
+
 using namespace std;
 
 int main()
@@ -18,5 +20,4 @@ int main()
     cout << "Student ID: 010970631" << endl;
     cout << "Name: Cesar Rebolledo-Valencia" << endl;
 
-    
 };
