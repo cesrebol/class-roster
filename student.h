@@ -4,12 +4,17 @@
 using namespace std; // using std
 
 class Student {
+<<<<<<< HEAD
     private:
+=======
+    public:
+>>>>>>> 2170c949939035fd3a3ecbb48bc8e0857d8f79d2
         string studentId;
         string firstName;
         string lastName;
         string emailAddress;
         int age;
+<<<<<<< HEAD
         int daysInCourse[3];
         DegreeProgram degreeProgram;
     public:
@@ -33,4 +38,8 @@ class Student {
         void setDegreeProgram(DegreeProgram degreeProgram);
         
         void print();
+=======
+        int daysInCourse;
+        string degreeProgram;
+>>>>>>> 2170c949939035fd3a3ecbb48bc8e0857d8f79d2
 };
