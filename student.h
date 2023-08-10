@@ -1,27 +1,25 @@
+#ifndef STUDENT_H
+#define STUDENT_H
+
 #include <iostream> 
 #include "degree.h" // including degree.h file for this class
 
 using namespace std; // using std
 
 class Student {
-<<<<<<< HEAD
     private:
-=======
-    public:
->>>>>>> 2170c949939035fd3a3ecbb48bc8e0857d8f79d2
-        string studentId;
+        string studentID;
         string firstName;
         string lastName;
         string emailAddress;
         int age;
-<<<<<<< HEAD
         int daysInCourse[3];
         DegreeProgram degreeProgram;
     public:
         Student ();
         
-        Student(string studentId, string firstName, string lastName, string emailAddress, int age, int daysInCourse, DegreeProgram degreeProgram);
-        string getStudentId(); 
+        Student(string studentID, string firstName, string lastName, string emailAddress, int age, int daysInCourse[3], DegreeProgram degreeProgram);
+        string getStudentID(); 
         string getFirstName();
         string getLastName();
         string getEmailAddress();
@@ -29,7 +27,7 @@ class Student {
         int* getDaysInCourse();
         DegreeProgram getDegreeProgram();        
 
-        void setStudenId(string studentId);
+        void setStudentID(string studentID);
         void setFirstName(string firstName);
         void setLastName(string lastName);
         void setEmailAddress(string emailAddress);
@@ -38,8 +36,6 @@ class Student {
         void setDegreeProgram(DegreeProgram degreeProgram);
         
         void print();
-=======
-        int daysInCourse;
-        string degreeProgram;
->>>>>>> 2170c949939035fd3a3ecbb48bc8e0857d8f79d2
 };
+
+#endif // STUDENT_H
